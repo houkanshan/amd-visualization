@@ -1,4 +1,4 @@
-Demo: http://code.dapps.douban.com/houmai/amd-visualization/docs/pages/index.html
+Demo: 
 
 > under development ...
 
