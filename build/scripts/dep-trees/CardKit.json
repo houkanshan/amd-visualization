@@ -1,0 +1,357 @@
+{
+  "cardkit/app": [
+    "cardkit/bus",
+    "cardkit/env",
+    "cardkit/render",
+    "cardkit/supports",
+    "cardkit/tpl/layout/ctlbar",
+    "cardkit/tpl/layout/overflowmenu",
+    "cardkit/view/actionview",
+    "cardkit/view/control",
+    "cardkit/view/growl",
+    "cardkit/view/modalcard",
+    "cardkit/view/picker",
+    "cardkit/view/ranger",
+    "cardkit/view/stars",
+    "choreo",
+    "dollar",
+    "mo/browsers",
+    "mo/cookie",
+    "mo/domready",
+    "mo/easing/timing",
+    "mo/lang",
+    "mo/template",
+    "momo/base",
+    "momo/scroll",
+    "momo/swipe",
+    "momo/tap",
+    "soviet"
+  ],
+  "cardkit/bus": [
+    "eventmaster"
+  ],
+  "cardkit/parser/actionbar": [
+    "cardkit/parser/util",
+    "cardkit/supports",
+    "dollar",
+    "mo/lang"
+  ],
+  "cardkit/parser/banner": [
+    "cardkit/parser/util",
+    "dollar",
+    "mo/lang"
+  ],
+  "cardkit/parser/box": [
+    "cardkit/parser/util",
+    "dollar",
+    "mo/lang"
+  ],
+  "cardkit/parser/form": [
+    "cardkit/parser/util",
+    "dollar",
+    "mo/lang"
+  ],
+  "cardkit/parser/list": [
+    "cardkit/parser/util",
+    "dollar",
+    "mo/lang"
+  ],
+  "cardkit/parser/mini": [
+    "cardkit/parser/list",
+    "dollar",
+    "mo/lang"
+  ],
+  "cardkit/parser/navdrawer": [
+    "cardkit/parser/util",
+    "dollar",
+    "mo/lang"
+  ],
+  "cardkit/parser/util": [
+    "dollar",
+    "mo/lang"
+  ],
+  "cardkit/render": [
+    "cardkit/bus",
+    "cardkit/parser/actionbar",
+    "cardkit/parser/banner",
+    "cardkit/parser/box",
+    "cardkit/parser/form",
+    "cardkit/parser/list",
+    "cardkit/parser/mini",
+    "cardkit/parser/navdrawer",
+    "cardkit/tpl/layout/actionbar",
+    "cardkit/tpl/layout/navdrawer",
+    "cardkit/tpl/unit/banner",
+    "cardkit/tpl/unit/blank",
+    "cardkit/tpl/unit/box",
+    "cardkit/tpl/unit/form",
+    "cardkit/tpl/unit/list",
+    "cardkit/tpl/unit/mini",
+    "dollar",
+    "mo/lang",
+    "mo/template"
+  ],
+  "cardkit/supports": [
+    "cardkit/env",
+    "mo/browsers"
+  ],
+  "cardkit/tpl/layout/actionbar": [],
+  "cardkit/tpl/layout/ctlbar": [],
+  "cardkit/tpl/layout/navdrawer": [],
+  "cardkit/tpl/layout/overflowmenu": [],
+  "cardkit/tpl/unit/banner": [],
+  "cardkit/tpl/unit/blank": [],
+  "cardkit/tpl/unit/box": [],
+  "cardkit/tpl/unit/form": [],
+  "cardkit/tpl/unit/list": [],
+  "cardkit/tpl/unit/mini": [],
+  "cardkit/view/actionview": [
+    "cardkit/bus",
+    "dollar",
+    "mo/lang",
+    "moui/actionview"
+  ],
+  "cardkit/view/control": [
+    "dollar",
+    "mo/lang",
+    "mo/network",
+    "moui/control"
+  ],
+  "cardkit/view/growl": [
+    "dollar",
+    "mo/lang",
+    "moui/growl"
+  ],
+  "cardkit/view/modalcard": [
+    "cardkit/supports",
+    "dollar",
+    "mo/network",
+    "moui/modalview"
+  ],
+  "cardkit/view/picker": [
+    "dollar",
+    "mo/lang",
+    "mo/network",
+    "moui/picker"
+  ],
+  "cardkit/view/ranger": [
+    "cardkit/bus",
+    "cardkit/view/growl",
+    "dollar",
+    "moui/ranger"
+  ],
+  "cardkit/view/slidelist": [
+    "choreo",
+    "dollar",
+    "eventmaster",
+    "mo/lang",
+    "momo/swipe"
+  ],
+  "cardkit/view/stars": [
+    "dollar",
+    "mo/lang",
+    "mo/network",
+    "moui/slider"
+  ],
+  "choreo": [
+    "eventmaster",
+    "mo/easing/base",
+    "mo/lang/es5",
+    "mo/lang/mix",
+    "mo/mainloop"
+  ],
+  "component/moui/imageview": [],
+  "component/oz": [],
+  "dollar": [
+    "dollar/origin"
+  ],
+  "dollar/android23": [
+    "dollar/origin",
+    "mo/lang/es5",
+    "mo/lang/mix",
+    "mo/lang/type"
+  ],
+  "dollar/origin": [
+    "mo/lang/es5",
+    "mo/lang/mix",
+    "mo/lang/type"
+  ],
+  "eventmaster": [
+    "mo/lang/es5",
+    "mo/lang/mix",
+    "mo/lang/struct"
+  ],
+  "mo/browsers": [],
+  "mo/console": [
+    "mo/browsers",
+    "mo/domready",
+    "mo/lang",
+    "mo/template/string"
+  ],
+  "mo/cookie": [],
+  "mo/domready": [
+    "finish"
+  ],
+  "mo/easing": [
+    "mo/easing/base",
+    "mo/easing/bezier",
+    "mo/easing/functions",
+    "mo/easing/timing",
+    "mo/lang/mix"
+  ],
+  "mo/easing/base": [],
+  "mo/easing/bezier": [],
+  "mo/easing/functions": [
+    "cardkit/app",
+    "cardkit/bus",
+    "cardkit/env",
+    "dollar",
+    "finish",
+    "mo/browsers",
+    "mo/console"
+  ],
+  "mo/easing/timing": [
+    "mo/easing/base",
+    "mo/lang/mix"
+  ],
+  "mo/key": [
+    "jquery",
+    "mo/lang"
+  ],
+  "mo/lang": [
+    "mo/lang/es5",
+    "mo/lang/mix",
+    "mo/lang/oop",
+    "mo/lang/struct",
+    "mo/lang/type"
+  ],
+  "mo/lang/es5": [],
+  "mo/lang/mix": [
+    "mo/lang/es5",
+    "mo/lang/type"
+  ],
+  "mo/lang/oop": [
+    "mo/lang/es5",
+    "mo/lang/mix"
+  ],
+  "mo/lang/struct": [
+    "mo/lang/es5",
+    "mo/lang/mix"
+  ],
+  "mo/lang/type": [
+    "mo/lang/es5"
+  ],
+  "mo/mainloop": [
+    "mo/easing/base",
+    "mo/lang"
+  ],
+  "mo/network": [
+    "mo/lang",
+    "mo/network/ajax"
+  ],
+  "mo/network/ajax": [
+    "mo/browsers"
+  ],
+  "mo/template": [
+    "mo/lang",
+    "mo/template/micro",
+    "mo/template/string"
+  ],
+  "mo/template/micro": [
+    "mo/lang",
+    "mo/template/string"
+  ],
+  "mo/template/string": [],
+  "momo": [
+    "dollar",
+    "mo/lang",
+    "momo/base",
+    "momo/drag",
+    "momo/scroll",
+    "momo/swipe",
+    "momo/tap"
+  ],
+  "momo/base": [
+    "mo/lang/es5",
+    "mo/lang/mix",
+    "mo/lang/type"
+  ],
+  "momo/drag": [
+    "mo/lang",
+    "momo/base"
+  ],
+  "momo/scroll": [
+    "mo/lang",
+    "momo/base"
+  ],
+  "momo/swipe": [
+    "mo/lang",
+    "momo/base"
+  ],
+  "momo/tap": [
+    "mo/lang",
+    "momo/base"
+  ],
+  "moui/actionview": [
+    "dollar",
+    "mo/lang",
+    "mo/template/string",
+    "moui/overlay",
+    "moui/picker"
+  ],
+  "moui/bubble": [
+    "dollar",
+    "mo/lang",
+    "moui/util/stick"
+  ],
+  "moui/control": [
+    "dollar",
+    "eventmaster",
+    "mo/lang"
+  ],
+  "moui/growl": [
+    "dollar",
+    "mo/lang",
+    "mo/template",
+    "moui/overlay"
+  ],
+  "moui/modalview": [
+    "dollar",
+    "mo/lang",
+    "mo/template/string",
+    "moui/overlay"
+  ],
+  "moui/overlay": [
+    "dollar",
+    "eventmaster",
+    "mo/lang",
+    "mo/template/string"
+  ],
+  "moui/picker": [
+    "dollar",
+    "eventmaster",
+    "mo/lang",
+    "moui/control"
+  ],
+  "moui/ranger": [
+    "dollar",
+    "eventmaster",
+    "mo/lang"
+  ],
+  "moui/slider": [
+    "dollar",
+    "eventmaster",
+    "mo/lang"
+  ],
+  "moui/util/stick": [
+    "dollar",
+    "mo/lang"
+  ],
+  "soviet": [
+    "dollar",
+    "mo/lang/es5",
+    "mo/lang/mix",
+    "mo/lang/struct",
+    "mo/lang/type"
+  ]
+}

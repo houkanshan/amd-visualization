@@ -1,0 +1,303 @@
+{
+  "ajax": [
+    "ajax/var/nonce",
+    "ajax/var/rquery",
+    "core",
+    "deferred",
+    "var/rnotwhite"
+  ],
+  "ajax/jsonp": [
+    "ajax",
+    "ajax/var/nonce",
+    "ajax/var/rquery",
+    "core"
+  ],
+  "ajax/load": [
+    "ajax",
+    "core",
+    "selector",
+    "traversing"
+  ],
+  "ajax/script": [
+    "ajax",
+    "core"
+  ],
+  "ajax/var/nonce": [
+    "core"
+  ],
+  "ajax/var/rquery": [],
+  "ajax/xhr": [
+    "ajax",
+    "core",
+    "support"
+  ],
+  "attributes": [
+    "attributes/attr",
+    "attributes/classes",
+    "attributes/prop",
+    "attributes/val"
+  ],
+  "attributes/attr": [
+    "core",
+    "selector",
+    "support",
+    "var/rnotwhite",
+    "var/strundefined"
+  ],
+  "attributes/classes": [
+    "core",
+    "data/var/data_priv",
+    "var/rnotwhite",
+    "var/strundefined"
+  ],
+  "attributes/prop": [
+    "core",
+    "support"
+  ],
+  "attributes/val": [
+    "core",
+    "support"
+  ],
+  "callbacks": [
+    "core",
+    "var/rnotwhite"
+  ],
+  "core": [
+    "var/arr",
+    "var/class2type",
+    "var/concat",
+    "var/hasOwn",
+    "var/indexOf",
+    "var/push",
+    "var/slice",
+    "var/strundefined",
+    "var/toString",
+    "var/trim"
+  ],
+  "core/ready": [
+    "core",
+    "deferred"
+  ],
+  "core/swap": [
+    "core"
+  ],
+  "css": [
+    "core",
+    "core/ready",
+    "core/swap",
+    "css/defaultDisplay",
+    "css/var/cssExpand",
+    "css/var/isHidden",
+    "data/var/data_priv",
+    "selector",
+    "support",
+    "var/pnum"
+  ],
+  "css/defaultDisplay": [
+    "core",
+    "manipulation"
+  ],
+  "css/hidden-visible-selectors": [
+    "core",
+    "selector"
+  ],
+  "css/var/cssExpand": [],
+  "css/var/isHidden": [
+    "core",
+    "selector"
+  ],
+  "data": [
+    "core",
+    "data/var/data_priv",
+    "data/var/data_user",
+    "var/rnotwhite"
+  ],
+  "data/Data": [
+    "core",
+    "data/accepts",
+    "var/rnotwhite"
+  ],
+  "data/accepts": [
+    "core"
+  ],
+  "data/var/data_priv": [
+    "data/Data"
+  ],
+  "data/var/data_user": [
+    "data/Data"
+  ],
+  "deferred": [
+    "callbacks",
+    "core",
+    "var/slice"
+  ],
+  "deprecated": [
+    "core",
+    "traversing"
+  ],
+  "dimensions": [
+    "core",
+    "css"
+  ],
+  "effects": [
+    "core",
+    "css",
+    "css/var/cssExpand",
+    "css/var/isHidden",
+    "data/var/data_priv",
+    "deferred",
+    "effects/Tween",
+    "queue",
+    "traversing",
+    "var/pnum"
+  ],
+  "effects/Tween": [
+    "core",
+    "css"
+  ],
+  "effects/animated-selector": [
+    "core",
+    "effects",
+    "selector"
+  ],
+  "event": [
+    "core",
+    "data/accepts",
+    "data/var/data_priv",
+    "selector",
+    "support",
+    "var/hasOwn",
+    "var/rnotwhite",
+    "var/slice",
+    "var/strundefined"
+  ],
+  "event/alias": [
+    "core",
+    "event"
+  ],
+  "exports/amd": [
+    "core"
+  ],
+  "intro": [],
+  "jquery": [
+    "ajax",
+    "ajax/jsonp",
+    "ajax/load",
+    "ajax/script",
+    "ajax/xhr",
+    "attributes",
+    "callbacks",
+    "core",
+    "core/ready",
+    "css",
+    "css/hidden-visible-selectors",
+    "data",
+    "deferred",
+    "deprecated",
+    "dimensions",
+    "effects",
+    "effects/animated-selector",
+    "event",
+    "event/alias",
+    "exports/amd",
+    "manipulation",
+    "manipulation/_evalUrl",
+    "offset",
+    "queue",
+    "queue/delay",
+    "selector",
+    "serialize",
+    "support",
+    "traversing",
+    "wrap"
+  ],
+  "manipulation": [
+    "core",
+    "data/accepts",
+    "data/var/data_priv",
+    "data/var/data_user",
+    "event",
+    "manipulation/var/rcheckableType",
+    "selector",
+    "support",
+    "traversing",
+    "var/concat",
+    "var/push"
+  ],
+  "manipulation/_evalUrl": [
+    "ajax"
+  ],
+  "manipulation/var/rcheckableType": [],
+  "offset": [
+    "core",
+    "css",
+    "selector",
+    "var/strundefined"
+  ],
+  "outro": [],
+  "queue": [
+    "callbacks",
+    "core",
+    "data/var/data_priv",
+    "deferred"
+  ],
+  "queue/delay": [
+    "core",
+    "effects",
+    "queue"
+  ],
+  "selector": [
+    "selector-sizzle"
+  ],
+  "selector-native": [
+    "core"
+  ],
+  "selector-sizzle": [
+    "../../../../bower_components/sizzle/dist/sizzle",
+    "core"
+  ],
+  "serialize": [
+    "attributes/prop",
+    "core",
+    "manipulation/var/rcheckableType",
+    "traversing"
+  ],
+  "support": [
+    "core",
+    "core/ready",
+    "core/swap"
+  ],
+  "traversing": [
+    "core",
+    "selector",
+    "var/indexOf"
+  ],
+  "var/arr": [],
+  "var/class2type": [],
+  "var/concat": [
+    "var/arr"
+  ],
+  "var/hasOwn": [
+    "var/class2type"
+  ],
+  "var/indexOf": [
+    "var/arr"
+  ],
+  "var/pnum": [],
+  "var/push": [
+    "var/arr"
+  ],
+  "var/rnotwhite": [],
+  "var/slice": [
+    "var/arr"
+  ],
+  "var/strundefined": [],
+  "var/toString": [
+    "var/class2type"
+  ],
+  "var/trim": [],
+  "wrap": [
+    "core",
+    "traversing"
+  ]
+}

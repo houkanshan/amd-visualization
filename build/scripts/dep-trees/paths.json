@@ -1,0 +1,4 @@
+{
+  "jquery": "scripts/dep-trees/jquery.json",
+  "CardKit": "scripts/dep-trees/CardKit.json"
+}

@@ -1,0 +1,16 @@
+{
+  "name": "amd-visualization",
+  "version": "0.0.0",
+  "description": "generate module dependencies of a amd project",
+  "main": "index.js",
+  "repository": "",
+  "author": "houkanshan",
+  "license": "MIT",
+  "devDependencies": {
+    "madge": "~0.1.4",
+    "grunt": "~0.4.1",
+    "grunt-cli": "~0.1.9",
+    "grunt-connect": "~0.2.0",
+    "underscore": "~1.5.1"
+  }
+}
