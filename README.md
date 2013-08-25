@@ -1,8 +1,9 @@
-Demo: 
+Demo: http://houkanshan.github.com/amd-visualization/
 
 > under development ...
 
 Visualization a f2e project which base on AMD format
+
 
 ## Usage
 
