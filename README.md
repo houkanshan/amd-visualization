@@ -1,8 +1,8 @@
 Demo: http://houkanshan.github.com/amd-visualization/
 
-> under development ...
-
 Visualization a f2e project which base on AMD format
+
+![](./media/screenshot.png)
 
 
 ## Usage
@@ -51,3 +51,4 @@ mkdir -p projects; cd projects; git clone https://github.com/jquery/jquery.git
 grunt
 
 ```
+
