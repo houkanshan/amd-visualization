@@ -1,4 +1,4 @@
-Demo: http://houkanshan.github.com/amd-visualization/
+Demo: http://houkanshan.github.io/amd-visualization/
 
 Visualization a f2e project which base on AMD format
 
